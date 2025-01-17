@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.static(__dirname + "/public"));
 
 // Define the allowed origins
-const allowedOrigins = ['http://localhost:3000', 'https://webstore-userservice.onrender.com']; // Replace with your actual domains
+const allowedOrigins = ['https://webstore-frontend-9669.onrender.com', 'https://webstore-userservice.onrender.com']; // Replace with your actual domains
 
 const corsOptions = {
   origin: function (origin, callback) {
